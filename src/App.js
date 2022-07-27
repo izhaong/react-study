@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+/*
+ * @Author: 仲灏<izhaong@outlook.com>🌶🌶🌶
+ * @Date: 2022-07-27 18:35:33
+ * @LastEditTime: 2022-07-27 18:44:27
+ * @LastEditors: 仲灏<izhaong@outlook.com>🌶🌶🌶
+ * @Description:  
+ * @FilePath: /react-study/src/App.js
+ */
+import { HelloWord } from './main-concepts/1.hello-world'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HelloWord />
     </div>
   );
 }
